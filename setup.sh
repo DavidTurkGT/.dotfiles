@@ -69,6 +69,11 @@ ln -sf $atom/package.cson ~/.atom
 ln -sf $atom/snippets.cson ~/.atom
 ln -sf $atom/styles.less ~/.atom
 ln -sf $atom/init.coffee ~/.atom
+echo "Install packages:"
+echo "\tAtom Clock"
+echo "\tHighlight-Selected"
+echo "\tMini-Map, etc."
+echo "\tLanguage-Babel"
 
 echo "${GREEN}>>>>> Finished - Linking Atom configuration files${NC}"
 
@@ -85,3 +90,4 @@ echo "${GREEN}>>>>> Finished - Installing Atom Packages${NC}"
 echo ""
 echo ""
 echo "${GREEN}I${CYAN}n${YELLOW}s${GREEN}t${CYAN}a${YELLOW}l${GREEN}l${CYAN}a${YELLOW}t${GREEN}i${CYAN}o${YELLOW}n ${GREEN}C${CYAN}o${YELLOW}m${GREEN}p${CYAN}l${YELLOW}e${GREEN}t${CYAN}e${YELLOW}!"
+echo "...Don't forget IntelliJ! ..."
