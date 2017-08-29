@@ -40,3 +40,6 @@ echo "${GREEN}>>>>> Finished - Creating Zsh Configuration${NC}"
 echo "${YELLOW}>>>>> Making Zsh Default Shell${NC}"
 chsh -s /bin/zsh
 echo "${GREEN}>>>>> Finished - Making Zsh Default Shell${NC}"
+
+echo "The color you like is: #e88f1b"
+echo "Don't forget zsh syntax highlighting!"

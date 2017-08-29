@@ -69,11 +69,6 @@ ln -sf $atom/package.cson ~/.atom
 ln -sf $atom/snippets.cson ~/.atom
 ln -sf $atom/styles.less ~/.atom
 ln -sf $atom/init.coffee ~/.atom
-echo "Install packages:"
-echo "\tAtom Clock"
-echo "\tHighlight-Selected"
-echo "\tMini-Map, etc."
-echo "\tLanguage-Babel"
 
 echo "${GREEN}>>>>> Finished - Linking Atom configuration files${NC}"
 
